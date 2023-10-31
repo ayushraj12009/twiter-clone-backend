@@ -1,0 +1,5 @@
+package com.ayush.exception;
+
+public class TwitException extends Exception {
+
+}

@@ -1,0 +1,5 @@
+package com.ayush.dto;
+
+public class UserDto {
+
+}

@@ -1,0 +1,21 @@
+package com.ayush.mapper;
+
+import com.ayush.dto.TwitDto;
+import com.ayush.dto.UserDto;
+import com.ayush.model.Twit;
+import com.ayush.model.User;
+import com.ayush.util.TwitUtil;
+
+public class TwitDtoMapper {
+	
+	public static TwitDto toTwitDto(Twit twit, User reqUser) {
+		
+		UserDto user = UserDtoMapper.toUserDto(twit.getUser());
+		
+		boolean isLiked=TwitUtil.isLikedByReqUser(reqUser, twit);
+		
+		return null;
+		
+	}
+
+}

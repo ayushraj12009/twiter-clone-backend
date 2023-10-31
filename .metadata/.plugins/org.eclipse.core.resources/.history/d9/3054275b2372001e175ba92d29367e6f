@@ -1,0 +1,5 @@
+package com.ayush.response;
+
+public class ApiResponse {
+
+}
